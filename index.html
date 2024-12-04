@@ -150,7 +150,7 @@
             // For assistant messages, add a slight delay before displaying
             if (!isUser) {
                 msgElem.style.opacity = 0; // Start with opacity 0
-                await new Promise(resolve => setTimeout(resolve, 300)); // Delay
+                await new Promise(resolve => setTimeout(resolve, 200)); // Delay
                 msgElem.style.opacity = 1; // Fade in
             }
         }
